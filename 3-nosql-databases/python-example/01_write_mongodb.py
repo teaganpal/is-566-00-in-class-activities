@@ -36,4 +36,4 @@ def insert_multiple():
     # this is the id field of the new document
     print(x.inserted_ids) 
 
-insert_multiple()
+# insert_multiple()
