@@ -1,0 +1,32 @@
+[
+  {
+    "timestamp": "2025-02-12 11:27:57.032811",
+    "device_id": "thermostat_3",
+    "event_type": "thermostat",
+    "value": 35.22
+  },
+  {
+    "timestamp": "2025-02-12 11:50:40.782102",
+    "device_id": "thermostat_3",
+    "event_type": "thermostat",
+    "value": 81.38
+  },
+  {
+    "timestamp": "2025-02-12 14:26:17.338883",
+    "device_id": "thermostat_3",
+    "event_type": "thermostat",
+    "value": 75.09
+  },
+  {
+    "timestamp": "2025-02-12 19:14:25.992464",
+    "device_id": "thermostat_3",
+    "event_type": "thermostat",
+    "value": 44.86
+  },
+  {
+    "timestamp": "2025-02-12 21:31:48.904945",
+    "device_id": "thermostat_3",
+    "event_type": "thermostat",
+    "value": 39.59
+  }
+]

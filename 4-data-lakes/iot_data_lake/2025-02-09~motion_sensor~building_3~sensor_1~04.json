@@ -1,0 +1,26 @@
+[
+  {
+    "timestamp": "2025-02-12 01:20:47.776553",
+    "device_id": "motion_sensor_1",
+    "event_type": "motion_sensor",
+    "value": 66.71
+  },
+  {
+    "timestamp": "2025-02-12 05:21:32.313474",
+    "device_id": "motion_sensor_1",
+    "event_type": "motion_sensor",
+    "value": 83.21
+  },
+  {
+    "timestamp": "2025-02-12 09:53:44.857937",
+    "device_id": "motion_sensor_1",
+    "event_type": "motion_sensor",
+    "value": 99.12
+  },
+  {
+    "timestamp": "2025-02-12 23:11:00.23038",
+    "device_id": "motion_sensor_1",
+    "event_type": "motion_sensor",
+    "value": 42.16
+  }
+]

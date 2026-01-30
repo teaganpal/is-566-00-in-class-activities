@@ -1,0 +1,20 @@
+[
+  {
+    "timestamp": "2025-02-12 05:32:57.928324",
+    "device_id": "water_leak_detector_3",
+    "event_type": "water_leak_detector",
+    "value": 97.91
+  },
+  {
+    "timestamp": "2025-02-12 10:58:22.239664",
+    "device_id": "water_leak_detector_3",
+    "event_type": "water_leak_detector",
+    "value": 90.63
+  },
+  {
+    "timestamp": "2025-02-12 22:19:48.071528",
+    "device_id": "water_leak_detector_3",
+    "event_type": "water_leak_detector",
+    "value": 42.37
+  }
+]

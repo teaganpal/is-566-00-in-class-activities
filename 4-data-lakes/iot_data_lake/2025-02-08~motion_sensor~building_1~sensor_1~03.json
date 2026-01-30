@@ -1,0 +1,32 @@
+[
+  {
+    "timestamp": "2025-02-12 05:25:30.773375",
+    "device_id": "motion_sensor_1",
+    "event_type": "motion_sensor",
+    "value": 76.2
+  },
+  {
+    "timestamp": "2025-02-12 08:12:36.078663",
+    "device_id": "motion_sensor_1",
+    "event_type": "motion_sensor",
+    "value": 52.33
+  },
+  {
+    "timestamp": "2025-02-12 11:47:12.084341",
+    "device_id": "motion_sensor_1",
+    "event_type": "motion_sensor",
+    "value": 67.54
+  },
+  {
+    "timestamp": "2025-02-12 16:18:01.862647",
+    "device_id": "motion_sensor_1",
+    "event_type": "motion_sensor",
+    "value": 81.51
+  },
+  {
+    "timestamp": "2025-02-12 21:59:19.219048",
+    "device_id": "motion_sensor_1",
+    "event_type": "motion_sensor",
+    "value": 53.16
+  }
+]
