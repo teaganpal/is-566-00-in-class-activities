@@ -1,5 +1,5 @@
 -- Change to your DB:
-USE DATABASE YOUR_DB;
+USE DATABASE HIPPO_DB;
 
 CREATE OR REPLACE SCHEMA SCARIF;
 
@@ -55,13 +55,13 @@ FILE_FORMAT = csv_format;
 -- Stage the CSV files
   -- Mac users:       PUT 'file:///path/to/folder/file.csv' @your_stage 
   -- Windows users:   PUT 'file://C:\\path\\to\\folder\\file.csv' @your_stage 
-PUT 'file:///path/to/.../7-dbt/stages-example/SCARIF_DATA/films.csv' @starwars_stage;
-PUT 'file:///path/to/.../7-dbt/stages-example/SCARIF_DATA/characters.csv' @starwars_stage;
-PUT 'file:///path/to/.../7-dbt/stages-example/SCARIF_DATA/character_planets_1.csv' @starwars_stage/character_planets;
-PUT 'file:///path/to/.../7-dbt/stages-example/SCARIF_DATA/character_planets_2.csv' @starwars_stage/character_planets;
-PUT 'file:///path/to/.../7-dbt/stages-example/SCARIF_DATA/character_planets_3.csv' @starwars_stage/character_planets;
-PUT 'file:///path/to/.../7-dbt/stages-example/SCARIF_DATA/2024-11-23-02-45-23_starships.csv' @starwars_stage/starships;
-PUT 'file:///path/to/.../7-dbt/stages-example/SCARIF_DATA/2024-11-26-10-23-09_starships.csv' @starwars_stage/starships;
+PUT 'file:////Users/teagan/code/is-566-00-in-class-activities/7-dbt/stages-example/SCARIF_DATA/films.csv' @starwars_stage;
+PUT 'file:///Users/teagan/code/is-566-00-in-class-activities/7-dbt/stages-example/SCARIF_DATA/characters.csv' @starwars_stage;
+PUT 'file:///Users/teagan/code/is-566-00-in-class-activities/7-dbt/stages-example/SCARIF_DATA/character_planets_1.csv' @starwars_stage/character_planets;
+PUT 'file:///Users/teagan/code/is-566-00-in-class-activities/7-dbt/stages-example/SCARIF_DATA/character_planets_2.csv' @starwars_stage/character_planets;
+PUT 'file:///Users/teagan/code/is-566-00-in-class-activities/7-dbt/stages-example/SCARIF_DATA/character_planets_3.csv' @starwars_stage/character_planets;
+PUT 'file:///Users/teagan/code/is-566-00-in-class-activities/7-dbt/stages-example/SCARIF_DATA/2024-11-23-02-45-23_starships.csv' @starwars_stage/starships;
+PUT 'file:///Users/teagan/code/is-566-00-in-class-activities/7-dbt/stages-example/SCARIF_DATA/2024-11-26-10-23-09_starships.csv' @starwars_stage/starships;
 
 -- Admire our work:
 LIST @starwars_stage;
@@ -75,7 +75,7 @@ select * from characters;
 
 COPY INTO films 
 FROM @starwars_stage/films.csv
--- validation_mode = 'RETURN_2_ROWS'
+--validation_mode = 'RETURN_2_ROWS'
 ;
 select * from films limit 10;
 
